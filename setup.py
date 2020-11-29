@@ -8,7 +8,7 @@ setuptools.setup(
     version="1.0.0",
     author="Muhammad Hanif",
     author_email="moehammadhanif@gmail.com",
-    description="Converting earthquake data of BMKG from XML to JSON.",
+    description="Konversi data gempa bumi BMKG dari XML ke JSON.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/muhammadhanif/bmkg-gempa",
