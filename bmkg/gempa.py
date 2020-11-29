@@ -19,7 +19,7 @@ class Gempa:
 
         url = "https://data.bmkg.go.id/autogempa.xml"
 
-        return self.__getData(url)
+        return json.loads(self.__getData(url))
 
     def tsunami_terkini(self):
         """
@@ -28,7 +28,7 @@ class Gempa:
 
         url = "https://data.bmkg.go.id/lasttsunami.xml"
 
-        return self.__getData(url)
+        return json.loads(self.__getData(url))
 
     def m_5(self):
         """
@@ -37,7 +37,7 @@ class Gempa:
 
         url = "https://data.bmkg.go.id/gempaterkini.xml"
 
-        return self.__getData(url)
+        return json.loads(self.__getData(url))
 
     def dirasakan(self):
         """
@@ -46,7 +46,7 @@ class Gempa:
 
         url = "https://data.bmkg.go.id/gempadirasakan.xml"
 
-        return self.__getData(url)
+        return json.loads(self.__getData(url))
 
     def __getData(self, url):
         try:
