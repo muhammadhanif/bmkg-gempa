@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bmkg-gempa",
-    version="1.0.0",
+    version="1.0.1",
     author="Muhammad Hanif",
     author_email="moehammadhanif@gmail.com",
     description="Konversi data gempa bumi BMKG dari XML ke JSON.",
