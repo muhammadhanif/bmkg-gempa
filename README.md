@@ -1,14 +1,14 @@
 # bmkg-gempa
 
-A simple python library for converting [earthquake data](https://data.bmkg.go.id/gempabumi/) of [BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)](https://www.bmkg.go.id/) from XML to JSON.
+Pustaka Python untuk konversi data gempa bumi yang bersumber dari [BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)](https://www.bmkg.go.id/) dari XML ke JSON.
 
-## Installation
+## Instalasi
 
 ```bash
 pip3 install bmkg-gempa
 ```
 
-## Example
+## Contoh Program
 
 ### Gempa Bumi M 5.0+ Terkini
 
@@ -51,6 +51,13 @@ gempa = Gempa()
 print(gempa.tsunami_terkini())
 ```
 
-## Data Source
+## Sumber Data
 
-The earthquake data used in the library is obtained from [BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)](https://www.bmkg.go.id/)
+Data gempa bumi yang digunakan di pustaka ini diperoleh dari [BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)](https://www.bmkg.go.id/).
+
+## Donasi
+
+Jika kalian ingin berdonasi, silahkan menghubungi kami melalui jalur berikut ini:
+
+- Email: moehammadhanif@gmail.com
+- Telegram: [t.me/muhammad_hanif](https://t.me/muhammad_hanif)
