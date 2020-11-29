@@ -1,0 +1,1 @@
+from .gempa import *
